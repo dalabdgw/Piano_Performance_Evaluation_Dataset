@@ -13,17 +13,12 @@ The focus of this repository is to provide structured access to:
 
 ```text
 data/
-├── ground_truth/                      # Target/reference scores
-│   ├── jeo/
-│   │   ├── bach/
-│   │   ├── beethoven/
-│   │   ├── chopin/
-│   │   ├── chopin_prelude/
-│   │   └── mozart/
-│   ├── jungwook/
-│   ├── jihyun/
-│   ├── jinhee/
-│   └── hyunsung/
+├── ground_truth/                      # Target midi, mp3
+│   ├── bach/
+│   ├── beethoven/
+│   ├── chopin/
+│   ├── chopin_prelude/
+│   └── mozart/
 │
 ├── performances/                     # Performance recordings from performers
 │   ├── jeo/
