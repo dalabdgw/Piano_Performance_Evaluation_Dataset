@@ -14,37 +14,37 @@ The focus of this repository is to provide structured access to:
 ```text
 data/
 ├── ground_truth/                      # Target midi, mp3
-│   ├── bach/
-│   ├── beethoven/
-│   ├── chopin/
-│   ├── chopin_prelude/
-│   └── mozart/
+│   ├── Bach_Prelude/
+│   ├── Beethoven_Sonata/
+│   ├── Chopin_Nocturne/
+│   ├── Chopin_Prelude/
+│   └── Mozart_Sonata/
 │
 ├── performances/                     # Performance recordings from performers
-│   ├── jeo/
-│   ├── jungwook/
-│   ├── jihyun/
-│   ├── jinhee/
-│   └── hyunsung/
+│   ├── Jeo_Park/
+│   ├── Jungwook_Lee/
+│   ├── Jihyun_Park/
+│   ├── Jinhee_Kim/
+│   └── Hyunsung_Ryu/
 │
 ├── evaluations/                      # Evaluation scores from human raters and model
 │   ├── raters/                       # Four human raters (김진희, 박재오, 유현성, 이정욱)
 │   │   ├── Jinhee_Kim/
-│   │   │   ├── jeo/
-│   │   │   ├── jungwook/
-│   │   │   ├── jihyun/
-│   │   │   ├── jinhee/
-│   │   │   └── hyunsung/
+│   │   │   ├── Jeo_Park/
+│   │   │   ├── Jungwook_Lee/
+│   │   │   ├── Jihyun_Park/
+│   │   │   ├── Jinhee_Kim/
+│   │   │   └── Hyunsung_Ryu/
 │   │   ├── Jeo_Park/
 │   │   ├── Hyunsung_Ryu/
 │   │   └── Jungwook_Lee/
 │   │
 │   └── hand_craft/                   # Model-generated scores
-│       ├── jeo/
-│       ├── jungwook/
-│       ├── jihyun/
-│       ├── jinhee/
-│       └── hyunsung/
+│       ├── Jeo_Park/
+│       ├── Jungwook_Lee/
+│       ├── Jihyun_Park/
+│       ├── Jinhee_Kim/
+│       └── Hyunsung_Ryu/
 ```
 
 ---
@@ -52,7 +52,7 @@ data/
 ## 📦 Dataset Composition
 
 - **Pieces Included**: Works by Bach_Prelude, Beethoven_Sonata, Chopin_Nocturne, Chopin_Prelude, Mozart_Sonata
-- **Performers**: jeo, jungwook, jihyun, jinhee, hyunsung
+- **Performers**: Jeo_Park, Jungwook_Lee, Jihyun_Park, Jinhee_Kim, Hyunsung_Ryu
 - **Human Raters**: 김진희 (Jinhee_Kim), 박재오 (Jeo_Park), 유현성 (Hyunsung_Ryu), 이정욱 (Jungwook_Lee)
 - **Model**: hand_craft (rule-based evaluation)
 
