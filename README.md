@@ -29,15 +29,15 @@ data/
 │
 ├── evaluations/                      # Evaluation scores from human raters and model
 │   ├── raters/                       # Four human raters (김진희, 박재오, 유현성, 이정욱)
-│   │   ├── kim_jinhee/
+│   │   ├── Jinhee_Kim/
 │   │   │   ├── jeo/
 │   │   │   ├── jungwook/
 │   │   │   ├── jihyun/
 │   │   │   ├── jinhee/
 │   │   │   └── hyunsung/
-│   │   ├── park_jaeo/
-│   │   ├── yoo_hyunsung/
-│   │   └── lee_jungwook/
+│   │   ├── Jeo_Park/
+│   │   ├── Hyunsung_Ryu/
+│   │   └── Jungwook_Lee/
 │   │
 │   └── hand_craft/                   # Model-generated scores
 │       ├── jeo/
@@ -51,9 +51,9 @@ data/
 
 ## 📦 Dataset Composition
 
-- **Pieces Included**: Works by Bach, Beethoven, Chopin, Chopin (Prelude), Mozart
+- **Pieces Included**: Works by Bach_Prelude, Beethoven_Sonata, Chopin_Nocturne, Chopin_Prelude, Mozart_Sonata
 - **Performers**: jeo, jungwook, jihyun, jinhee, hyunsung
-- **Human Raters**: 김진희 (kim_jinhee), 박재오 (park_jaeo), 유현성 (yoo_hyunsung), 이정욱 (lee_jungwook)
+- **Human Raters**: 김진희 (Jinhee_Kim), 박재오 (Jeo_Park), 유현성 (Hyunsung_Ryu), 이정욱 (Jungwook_Lee)
 - **Model**: hand_craft (rule-based evaluation)
 
 Each evaluated piece is annotated under the following categories:
