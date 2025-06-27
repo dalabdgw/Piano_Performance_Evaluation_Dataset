@@ -78,6 +78,7 @@ To analyze and evaluate the performances, musical elements are extracted from th
 | :-------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Time (secRep)** | Represents the event time, which has been converted from MIDI ticks to absolute **seconds** for synchronization. |
 | **Note** | The pitch of the played note, expressed as a **MIDI Note Number (0-127)** and extracted from `note_on`/`note_off` messages. |
+| **Velocity** | The intensity of a key press (0-127) from `note_on` events. It acts as a **core intermediate value used to calculate the `dynamic` and `accent` features**. |
 | **Dynamic** | The musical dynamic, determined by calculating the **average velocity** within a time segment and classifying it into one of **8 predefined levels (ppp ~ fff)**. |
 | **Accent** | Indicates the presence of an accent, marked as **'1'** if the average velocity is 76 or higher and **at least 1.2x greater** than the previous segment, and '0' otherwise. |
 | **Count** | The number of concurrently pressed keys in a short time, used to determine the **density of the polyphonic texture**. |
