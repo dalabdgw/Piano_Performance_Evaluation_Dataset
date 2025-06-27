@@ -92,7 +92,7 @@ It is crucial for extracting meaningful features from MIDI files to analyze and 
 | **Music21** | Supports a wide range of musical tasks such as music theory, analysis, and score generation. | Can be challenging for beginners. | - Supports various music data formats, not just MIDI.<br>- Enables in-depth analysis of musical elements and score representation. |
 
 ### Feature Extraction Algorithm
-The data extraction algorithm follows these steps:
+The feature extraction algorithm follows these steps:
 1. **Data Loading & Parsing**
   - The process begins by loading the Test MIDI file (the actual performance) and the Target MIDI file (the reference performance) as input.
   - The file structure and meta-information are parsed to organize the data for subsequent analysis.
