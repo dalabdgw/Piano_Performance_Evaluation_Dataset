@@ -4,7 +4,7 @@ This dataset is built to support the analysis and evaluation of expressive piano
 
 The focus of this repository is to provide structured access to:
 - 🎼 Target reference data (aligned scores)
-- 🎧 Performance data from five human pianists
+- 🎧 Performance data from five pianists
 - 📝 Evaluation data from four human raters and the Hand_Craft model
 
 ---
