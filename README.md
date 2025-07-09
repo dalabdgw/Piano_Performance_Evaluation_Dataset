@@ -21,30 +21,30 @@ data/
 │   └── Mozart_Sonata/
 │
 ├── performances/                     # Performance recordings from performers
-│   ├── Jeo_Park/
-│   ├── Jungwook_Lee/
-│   ├── Jihyun_Park/
-│   ├── Jinhee_Kim/
-│   └── Hyunsung_Ryu/
+│   ├── Pianist_1/
+│   ├── Pianist_2/
+│   ├── Pianist_3/
+│   ├── Pianist_4/
+│   └── Pianist_5/
 │
 ├── evaluations/                      # Evaluation scores from human raters and model
 │   ├── raters/                       # Four human raters (김진희, 박재오, 유현성, 이정욱)
-│   │   ├── Jinhee_Kim/
-│   │   │   ├── Jeo_Park/
-│   │   │   ├── Jungwook_Lee/
-│   │   │   ├── Jihyun_Park/
-│   │   │   ├── Jinhee_Kim/
-│   │   │   └── Hyunsung_Ryu/
-│   │   ├── Jeo_Park/
-│   │   ├── Hyunsung_Ryu/
-│   │   └── Jungwook_Lee/
+│   │   ├── Rater_1/
+│   │   │   ├── Pianist_1/
+│   │   │   ├── Pianist_2/
+│   │   │   ├── Pianist_3/
+│   │   │   ├── Pianist_4/
+│   │   │   └── Pianist_5/
+│   │   ├── Rater_2/
+│   │   ├── Rater_3/
+│   │   └── Rater_4/
 │   │
 │   └── hand_craft/                   # Model-generated scores
-│       ├── Jeo_Park/
-│       ├── Jungwook_Lee/
-│       ├── Jihyun_Park/
-│       ├── Jinhee_Kim/
-│       └── Hyunsung_Ryu/
+│       ├── Pianist_1/
+│       ├── Pianist_2/
+│       ├── Pianist_3/
+│       ├── Pianist_4/
+│       └── Pianist_5/
 ```
 
 ---
@@ -52,8 +52,8 @@ data/
 ## 📦 Dataset Composition
 
 - **Pieces Included**: Works by Bach_Prelude, Beethoven_Sonata, Chopin_Nocturne, Chopin_Prelude, Mozart_Sonata
-- **Performers**: Jeo_Park, Jungwook_Lee, Jihyun_Park, Jinhee_Kim, Hyunsung_Ryu
-- **Human Raters**: 김진희 (Jinhee_Kim), 박재오 (Jeo_Park), 유현성 (Hyunsung_Ryu), 이정욱 (Jungwook_Lee)
+- **Performers**: Pianist 1, Pianist 2, Pianist 3, Pianist 4, Pianist 5
+- **Human Raters**: Rater 1, Rater 2, Rater 3, Rater 4
 - **Model**: hand_craft (rule-based evaluation)
 
 Each evaluated piece is annotated under the following categories:
