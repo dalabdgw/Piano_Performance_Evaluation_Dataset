@@ -4,7 +4,7 @@ This dataset is built to support the analysis and evaluation of expressive piano
 
 The focus of this repository is to provide structured access to:
 - 🎼 Target reference data (aligned scores)
-- 🎧 Performance data from five human performers
+- 🎧 Performance data from five human pianists
 - 📝 Evaluation data from four human raters and the Hand_Craft model
 
 ---
@@ -20,7 +20,7 @@ data/
 │   ├── Chopin_Prelude/
 │   └── Mozart_Sonata/
 │
-├── performances/                     # Performance recordings from performers
+├── performances/                     # Performance recordings from five pianists
 │   ├── Pianist_1/
 │   ├── Pianist_2/
 │   ├── Pianist_3/
@@ -28,7 +28,7 @@ data/
 │   └── Pianist_5/
 │
 ├── evaluations/                      # Evaluation scores from human raters and model
-│   ├── raters/                       # Four human raters (김진희, 박재오, 유현성, 이정욱)
+│   ├── raters/                       # Four human raters (Rater 1, Rater 2, Rater 3, Rater 4)
 │   │   ├── Rater_1/
 │   │   │   ├── Pianist_1/
 │   │   │   ├── Pianist_2/
